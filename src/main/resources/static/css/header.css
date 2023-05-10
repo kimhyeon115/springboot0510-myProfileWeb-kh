@@ -7,14 +7,14 @@ body {
 
 tr.headerline {
 	height: 50px;
-	background-color: #003451;
+	background-color: #6C4AB6;
 }
 
 td.headertext {
 	font-size: 16px;
 	font-family: Arial;
 	text-align: center;
-	color: #ccf3ff;
+	color: #F1F6F9;
 	width: 3%;
 }
 

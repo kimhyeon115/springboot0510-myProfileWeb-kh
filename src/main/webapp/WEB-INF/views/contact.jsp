@@ -19,7 +19,7 @@
 		</tr>
 		<tr>
 			<td class="titlebox">
-				<span class="title02">I'm rlagus, a developer who wants a development job. Please call me back</span>
+				<span class="title02">I'm Rlagus, a developer who wants a development job. Please call me back</span>
 			</td>
 		</tr>
 		<tr>
@@ -32,9 +32,9 @@
 								<table border="0" cellspacing="0" cellpadding="10">									
 									<tr>
 										<td class="main_text">
-											안녕하세요 Web Application 백엔드 개발자 이교진입니다.<br>
+											안녕하세요 Web Application 백엔드 개발자 Rlagus입니다.<br>
 											보시고 계신 페이지는 Spring Boot Framework으로 개발되었습니다.<br>
-											웹 어플리케이션 개발 관련하여 궁금하신 luckyred@gmail.com으로 연락주세요.
+											웹 어플리케이션 개발 관련하여 궁금하신 rlagus115@naver.com으로 연락주세요.
 										</td>										
 									</tr>									
 								</table>

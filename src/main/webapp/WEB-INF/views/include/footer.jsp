@@ -13,10 +13,10 @@
 			<td class="marginline">&nbsp;</td>
 		</tr>
 		<tr>
-			<td class="footertext">Copyright ⓒ GyoJinCompany. All Rights Reserved</td>
+			<td class="footertext">Copyright ⓒ RlagusCompany. All Rights Reserved</td>
 		</tr>
 		<tr>
-			<td class="footertext">This homepage is built with Spring Framework. Made by GyojinLee. E-Mail:luckyred@gmail.com</td>
+			<td class="footertext">This homepage is built with Spring Framework. Made by Rlagus. E-Mail:rlagus115@naver.com</td>
 		</tr>
 	</table>
 </body>

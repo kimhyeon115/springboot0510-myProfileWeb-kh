@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="/resources/css/title.css">
 <link rel="stylesheet" href="/resources/css/content.css">
-<title>**MY PROFILE HOME**</title>
+<title>** My Profile Home **</title>
 </head>
 <body>
 	<%@ include file="include/header.jsp" %>
@@ -20,7 +20,7 @@
 		</tr>
 		<tr>
 			<td class="titlebox">
-				<span class="title02">I'm rlagus, a developer who wants a development job. Please call me back</span>
+				<span class="title02">I'm Rlagus, a developer who wants a development job. Please call me back</span>
 			</td>
 		</tr>
 		<tr>
@@ -41,7 +41,7 @@
 										<td><input class="inputbox01" type="password" name="mpw"></td>
 									</tr>
 									<tr>
-										<td class="content_text">비밀번호확인 : </td>
+										<td class="content_text">비번확인 : </td>
 										<td><input class="inputbox01" type="password" name="mpw_check"></td>
 									</tr>
 									<tr>

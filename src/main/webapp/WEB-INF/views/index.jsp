@@ -18,7 +18,7 @@
 		</tr>
 		<tr>
 			<td class="titlebox">
-				<span class="title02">I'm rlagus, a developer who wants a development job. Please call me back</span>
+				<span class="title02">I'm Rlagus, a developer who wants a development job. Please call me back</span>
 			</td>
 		</tr>
 		<tr>
@@ -27,7 +27,7 @@
 				<table border="0" cellspacing="0" cellpadding="10" width="80%">
 					<tr>
 						<td class="skillbox"><span class="skilltext01">J</span><span class="skilltext02">AVA</span></td>
-						<td rowspan="6" class="imgbox"><img src="/resources/img/kongyu.jpg" width="700"></td>
+						<td rowspan="6" class="imgbox"><img src="/resources/img/testfile.jpg" width="700"></td>
 					</tr>
 					<tr>
 						<td class="skillbox"><span class="skilltext01">J</span><span class="skilltext02">SP</span></td>
@@ -56,12 +56,5 @@
 	</table>
 	</center>
 	<%@ include file="include/footer.jsp" %>	
-</body>
-</html>		</center>			
-			</td>
-		</tr>
-	</table>
-	</center>
-	<%@ include file="include/footer.jsp"%>
 </body>
 </html>

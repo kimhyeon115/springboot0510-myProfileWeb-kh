@@ -19,7 +19,7 @@
 		</tr>
 		<tr>
 			<td class="titlebox">
-				<span class="title02">I'm rlagus, a developer who wants a development job. Please call me back</span>
+				<span class="title02">I'm Rlagus, a developer who wants a development job. Please call me back</span>
 			</td>
 		</tr>
 		<tr>
