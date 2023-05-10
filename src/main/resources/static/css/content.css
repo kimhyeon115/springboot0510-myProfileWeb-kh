@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+td.contentbox{
+	background-color: #B1B2FF;
+	height: 475px;
+}
+
+td.content_text{
+	font-size: 20px;
+	font-family: malgun;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: right;
+}
+
+input.inputbox01{
+	border: 1px solid #4649FF;
+	background-color: #FFFFFF;
+	width: 250px;
+	font-family: Arial;
+	font-size: 20px;
+	color: #400080;
+	padding: 5px;	
+}
+
+input.content_btn01{
+	border: 2px solid #ffffff;
+	background-color: #4649FF;
+	width: 180px;
+	height: 40px;
+	font-family: malgun;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 5px;
+}
+
+input.content_btn01:hover{
+	border: 2px solid #ffffff;
+	background-color: #A66CFF;
+	width: 180px;
+	height: 40px;
+	font-family: malgun;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 5px;
+	cursor: pointer;
+}
