@@ -8,15 +8,15 @@
 <title>footer</title>
 </head>
 <body>
-	<table border="0" cellspacing="0" sellpadding="0" width="100%">
+	<table border="0" cellspacing="0" cellpadding="" width="100%">
 		<tr>
 			<td class="marginline">&nbsp;</td>
 		</tr>
 		<tr>
-			<td class="footertext">Copyright rlagus. All Rights Reserved</td>			
+			<td class="footertext">Copyright ⓒ GyoJinCompany. All Rights Reserved</td>
 		</tr>
 		<tr>
-			<td class="footertext">This homepage is built with Spring Framework. Made by rlagus.</td>			
+			<td class="footertext">This homepage is built with Spring Framework. Made by GyojinLee. E-Mail:luckyred@gmail.com</td>
 		</tr>
 	</table>
 </body>

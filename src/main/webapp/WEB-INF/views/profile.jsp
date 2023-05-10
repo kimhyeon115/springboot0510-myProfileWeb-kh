@@ -9,7 +9,8 @@
 <title>** My Profile Home **</title>
 </head>
 <body>
-	<%@ include file="include/header.jsp"%>
+	<%@ include file="include/header.jsp" %>
+	
 	<center>
 	<table border="0" cellspacing="0" cellpadding="20" width="75%">
 		<tr>
@@ -19,7 +20,7 @@
 		</tr>
 		<tr>
 			<td class="titlebox">
-				<span class="title02">I'm rlagus, a developer who wants a development job. Please call me back</span>
+				<span class="title02">I'm rlagus, a developer who wants a development job. Please call me back.</span>
 			</td>
 		</tr>
 		<tr>
@@ -29,24 +30,24 @@
 					<tr>
 						<td class="contentbox">
 							<center>
-								<table border="0" cellspacing="0" cellpadding="10">
+								<table border="0" cellspacing="0" cellpadding="10">									
 									<tr>
 										<td class="main_text">
 											안녕하세요 Web Application 백엔드 개발자 rlagus입니다.<br>
 											보시고 계신 페이지는 Spring Boot Framework으로 개발되었습니다.<br>
-											웹 어플리케이션 개발 관련하여 궁굼하시면 연락을 남겨주세요.
-										</td>
-									</tr>
+											웹 어플리케이션 개발 관련하여 궁금하신 점은 question 질문 게시판을 이용해주세요.
+										</td>										
+									</tr>									
 								</table>
 							</center>
 						</td>
 					</tr>
 				</table>
-				</center>			
+				</center>
 			</td>
-		</tr>
+		</tr>	
 	</table>
 	</center>
-	<%@ include file="include/footer.jsp"%>
+	<%@ include file="include/footer.jsp" %>	
 </body>
 </html>

@@ -5,9 +5,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class WebController {
-
-	@RequestMapping(value = "/index")		// value = "/" 같은 효과(버전 업그레이드?)
+	
+	@RequestMapping(value = "/index")
 	public String index() {
+		return "index";
+	}
+	
+	@RequestMapping(value = "/")
+	public String index2() {
 		return "index";
 	}
 	
@@ -29,5 +34,10 @@ public class WebController {
 	@RequestMapping(value = "/contact")
 	public String contact() {
 		return "contact";
+	}
+	
+	@RequestMapping(value = "/question")
+	public String question() {
+		return "question";
 	}
 }

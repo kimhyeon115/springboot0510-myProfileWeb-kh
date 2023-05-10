@@ -1,55 +1,47 @@
 @charset "UTF-8";
 
-body{
-	margin: 0;
-	padding: 0;
+body {
+	margin:0;
+	padding:0;
 }
 
 span.title01{
-	font-size: 60px;
-	color: #6C4AB6;
+	font-size: 70px;
+	color: #005b8c;
 	font-family: Arial;
 	font-weight: bold;
 }
 
 span.title02{
 	font-size: 20px;
-	color: #8D72E1;
+	color: #6acbff;
 	font-family: Arial;
 	font-weight: normal;
 }
 
 span.skilltext01{
-	font-size: 50px;
-	color: #8D9EFF;
+	font-size: 60px;
+	color: #005b8c;
 	font-family: Arial;
 	font-weight: bold;
 }
 
 span.skilltext02{
-	font-size: 35px;
-	color: #B9E0FF;
+	font-size: 40px;
+	color: #62c8ff;
 	font-family: Arial;
 	font-weight: bold;
 }
 
-td.titlebox{
+td.titlebox {
 	text-align: center;
 }
 
-td.skillbox{
-	background-color: #F1F6F9;
+td.skillbox {
+	background-color: #caf3ff;
 }
 
-td.imgbox{
-	text-align: center;
-	background-color: #8EA7E9;
-	}
-
-
-
-
-
-
-
-
+td.imgbox {
+	text-align:center;
+	background-color: #004d75;
+}

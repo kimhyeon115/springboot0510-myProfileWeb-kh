@@ -29,24 +29,24 @@
 					<tr>
 						<td class="contentbox">
 							<center>
-								<table border="0" cellspacing="0" cellpadding="10">
+								<table border="0" cellspacing="0" cellpadding="10">									
 									<tr>
 										<td class="main_text">
-											안녕하세요 Web Application 백엔드 개발자 rlagus입니다.<br>
+											안녕하세요 Web Application 백엔드 개발자 이교진입니다.<br>
 											보시고 계신 페이지는 Spring Boot Framework으로 개발되었습니다.<br>
-											웹 어플리케이션 개발 관련하여 궁굼하시면 연락을 남겨주세요.
-										</td>
-									</tr>
+											웹 어플리케이션 개발 관련하여 궁금하신 luckyred@gmail.com으로 연락주세요.
+										</td>										
+									</tr>									
 								</table>
 							</center>
 						</td>
 					</tr>
 				</table>
-				</center>			
+				</center>
 			</td>
-		</tr>
+		</tr>	
 	</table>
 	</center>
-	<%@ include file="include/footer.jsp"%>
+	<%@ include file="include/footer.jsp" %>	
 </body>
 </html>

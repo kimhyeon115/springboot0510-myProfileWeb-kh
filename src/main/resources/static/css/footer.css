@@ -1,19 +1,14 @@
 @charset "UTF-8";
 
-body{
-	margin: 0;
-	padding: 0
+td.marginline {
+	height: 60px;
 }
 
-td.marginline{
-	height: 130px;
-}
-
-td.footertext{
+td.footertext {
 	font-size: 16px;
-	color: #000000;
+	color: #ccf3ff;
 	font-family: Arial;
 	text-align: center;
-	background-color: #4649FF;
-	padding: 5px 0 5px 0;
+	background-color: #003451;
+	padding:5px 0 5px 0;
 }

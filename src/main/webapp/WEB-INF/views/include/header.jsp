@@ -4,18 +4,24 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="/resources/css/header.css">
+<link rel="stylesheet" href="/resources/css/header.css"> 
 <title>header</title>
 </head>
 <body>
-	<table border="0" cellspacing="0" sellpadding="0" width="100%">
+	<table border="0" cellspacing="0" cellpadding="" width="100%">
 		<tr class="headerline">
-			<td class="margin01">&nbsp;</td><td class="headertext"><a href="index">HOME</a></td>
-			<td class="margin02">&nbsp;</td><td class="headertext"><a href="login">LOGIN</a></td>
-			<td class="margin02">&nbsp;</td><td class="headertext"><a href="join">JOIN</a></td>
-			<td class="margin02">&nbsp;</td><td class="headertext"><a href="profile">PROFILE</a></td>
-			<td class="margin02">&nbsp;</td><td class="headertext">QUESTION</td>
-			<td class="margin02">&nbsp;</td><td class="headertext"><a href="contact">CONTACT</a></td>
+			<td class="margin01">&nbsp;</td>
+			<td class="headertext"><a href="index">HOME</a></td>
+			<td class="margin02">&nbsp;</td>
+			<td class="headertext"><a href="login">LOGIN</a></td>
+			<td class="margin02">&nbsp;</td>
+			<td class="headertext"><a href="join">JOIN</a></td>
+			<td class="margin02">&nbsp;</td>
+			<td class="headertext"><a href="profile">PROFILE</a></td>
+			<td class="margin02">&nbsp;</td>
+			<td class="headertext"><a href="question">QUESTION</a></td>
+			<td class="margin02">&nbsp;</td>
+			<td class="headertext"><a href="contact">CONTACT</a></td>
 			<td class="margin02">&nbsp;</td>
 		</tr>
 		<tr class="marginline">

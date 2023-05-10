@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="/resources/css/title.css">
 <link rel="stylesheet" href="/resources/css/content.css">
-<title>**MY PROFILE HOME**</title>
+<title>** My Profile Home **</title>
 </head>
 <body>
 	<%@ include file="include/header.jsp" %>
@@ -20,7 +20,7 @@
 		</tr>
 		<tr>
 			<td class="titlebox">
-				<span class="title02">I'm rlagus, a developer who wants a development job. Please call me back</span>
+				<span class="title02">I'm rlagus, a developer who wants a development job. Please call me back.</span>
 			</td>
 		</tr>
 		<tr>
@@ -34,29 +34,26 @@
 									<form action="joinOk" method="post">
 									<tr>
 										<td class="content_text">아 이 디 : </td>
-										<td><input class="inputbox01" type="text" name="mid"></td>
+										<td><input class="inputbox01" type="text" name="bid"></td>
 									</tr>
 									<tr>
-										<td class="content_text">비밀번호 : </td>
-										<td><input class="inputbox01" type="password" name="mpw"></td>
+										<td class="content_text">글 쓴 이 : </td>
+										<td><input class="inputbox01" type="text" name="bname"></td>
 									</tr>
 									<tr>
-										<td class="content_text">비밀번호확인 : </td>
-										<td><input class="inputbox01" type="password" name="mpw_check"></td>
+										<td class="content_text">질문내용 : </td>
+										<td><textarea class="textareabox" rows="8" cols="30" name="bcontent"></textarea></td>
 									</tr>
-									<tr>
-										<td class="content_text">이&nbsp;&nbsp;&nbsp;&nbsp;름 : </td>
-										<td><input class="inputbox01" type="text" name="mname"></td>
-									</tr>
+									
 									<tr>
 										<td class="content_text">이 메 일 : </td>
-										<td><input class="inputbox01" type="text" name="memail"></td>
+										<td><input class="inputbox01" type="text" name="bemail"></td>
 									</tr>
 									
 									<tr>
 										<td colspan="2" align="center">
-											<input class="content_btn01" type="submit" value="가입완료">&nbsp;&nbsp;
-											<input class="content_btn01" type="button" value="로그인" onclick="script:window.location.href='login'">
+											<input class="content_btn01" type="submit" value="질문하기">&nbsp;&nbsp;
+											<input class="content_btn01" type="button" value="글목록" onclick="script:window.location.href='list'">
 										</td>										
 									</tr>
 									</form>

@@ -27,25 +27,37 @@
 				<table border="0" cellspacing="0" cellpadding="10" width="80%">
 					<tr>
 						<td class="skillbox"><span class="skilltext01">J</span><span class="skilltext02">AVA</span></td>
-						<td class="imgbox"rowspan="6"><img src="resources/img/testfile.jpg" width="800" height="420"></td>
+						<td rowspan="6" class="imgbox"><img src="/resources/img/kongyu.jpg" width="700"></td>
 					</tr>
 					<tr>
 						<td class="skillbox"><span class="skilltext01">J</span><span class="skilltext02">SP</span></td>
+						
 					</tr>
 					<tr>
 						<td class="skillbox"><span class="skilltext01">S</span><span class="skilltext02">PRINGBOOT</span></td>
+						
 					</tr>
 					<tr>
 						<td class="skillbox"><span class="skilltext01">J</span><span class="skilltext02">AVASCRIPT</span></td>
+						
 					</tr>
 					<tr>
 						<td class="skillbox"><span class="skilltext01">H</span><span class="skilltext02">TML5</span></td>
+						
 					</tr>
 					<tr>
 						<td class="skillbox"><span class="skilltext01">D</span><span class="skilltext02">ATABASE</span></td>
+						
 					</tr>
 				</table>
-				</center>			
+				</center>
+			</td>
+		</tr>	
+	</table>
+	</center>
+	<%@ include file="include/footer.jsp" %>	
+</body>
+</html>		</center>			
 			</td>
 		</tr>
 	</table>
