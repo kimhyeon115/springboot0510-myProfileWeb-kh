@@ -1,7 +1,12 @@
 @charset "UTF-8";
 
+body{
+	margin: 0;
+	padding: 0
+}
+
 td.marginline{
-	height: 100px;
+	height: 130px;
 }
 
 td.footertext{
