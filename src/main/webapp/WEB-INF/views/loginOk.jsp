@@ -9,6 +9,17 @@
 <title>** My Profile Home **</title>
 </head>
 <body>
+	<%
+		int checkIdPwFlag = Integer.parseInt(request.getAttribute("checkIdPwFlag").toString());		
+		if(checkIdPwFlag == 0){
+	%>
+		<script type="text/javascript">
+			alert("입력하신 아이디는 또는 비밀번호가 일치하지 않습니다. 다시 입력하세요.")
+			history.go(-1);
+		</script>
+	<%
+		}	
+	%>
 	<%@ include file="include/header.jsp" %>
 	
 	<center>
@@ -20,7 +31,7 @@
 		</tr>
 		<tr>
 			<td class="titlebox">
-				<span class="title02">I'm Rlagus, a developer who wants a development job. Please call me back</span>
+				<span class="title02">I'm Rlagus, a developer who wants a development job. Please call me back.</span>
 			</td>
 		</tr>
 		<tr>
@@ -33,9 +44,8 @@
 								<table border="0" cellspacing="0" cellpadding="10">									
 									<tr>
 										<td class="main_text">
-											안녕하세요 Web Application 백엔드 개발자 Rlagus입니다.<br>
-											보시고 계신 페이지는 Spring Boot Framework으로 개발되었습니다.<br>
-											웹 어플리케이션 개발 관련하여 궁금하신 점은 question 질문 게시판을 이용해주세요.
+											${memberDto.mname}님 로그인 하셨습니다. 반갑습니다.<br>
+											${memberDto.mid}님의 가입일은 ${memberDto.mdate}입니다.<br><br>
 										</td>										
 									</tr>									
 								</table>

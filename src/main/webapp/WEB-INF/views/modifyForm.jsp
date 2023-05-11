@@ -32,10 +32,10 @@
 						<td class="contentbox">
 							<center>
 								<table border="0" cellspacing="0" cellpadding="10">
-									<form action="joinOk" method="post" name="join_frm">
+									<form action="modifyOk" method="post" name="join_frm">
 									<tr>
 										<td class="content_text">아 이 디 : </td>
-										<td><input class="inputbox01" type="text" name="mid"></td>
+										<td><input class="inputbox01" type="text" name="mid" value="${memberDto.mid}" readonly="readonly"></td>
 									</tr>
 									<tr>
 										<td class="content_text">비밀번호 : </td>
@@ -47,17 +47,20 @@
 									</tr>
 									<tr>
 										<td class="content_text">이&nbsp;&nbsp;&nbsp;&nbsp;름 : </td>
-										<td><input class="inputbox01" type="text" name="mname"></td>
+										<td><input class="inputbox01" type="text" name="mname" value="${memberDto.mname}"></td>
 									</tr>
 									<tr>
 										<td class="content_text">이 메 일 : </td>
-										<td><input class="inputbox01" type="text" name="memail"></td>
+										<td><input class="inputbox01" type="text" name="memail" value="${memberDto.memail}"></td>
 									</tr>
-									
+									<tr>
+										<td class="content_text">가 입 일 : </td>
+										<td><input class="inputbox01" type="text" name="mdate" value="${memberDto.mdate}" readonly="readonly"></td>
+									</tr>									
 									<tr>
 										<td colspan="2" align="center">
-											<input class="content_btn01" type="button" value="가입완료" onclick="joinCheck()">&nbsp;&nbsp;
-											<input class="content_btn01" type="button" value="로그인" onclick="script:window.location.href='login'">
+											<input class="content_btn01" type="button" value="수정완료" onclick="joinCheck()">&nbsp;&nbsp;
+											<input class="content_btn01" type="button" value="수정취소" onclick="script:window.location.href='index'">
 										</td>										
 									</tr>
 									</form>

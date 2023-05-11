@@ -9,6 +9,17 @@
 <title>** My Profile Home **</title>
 </head>
 <body>
+	<%
+		int checkId = Integer.parseInt(request.getAttribute("checkId").toString());		
+		if(checkId == 1){
+	%>
+		<script type="text/javascript">
+			alert("입력하신 아이디는 이미 가입된 아이디 입니다. 다시 입력하세요.")
+			history.go(-1);
+		</script>
+	<%
+		}	
+	%>
 	<%@ include file="include/header.jsp" %>
 	
 	<center>
@@ -20,7 +31,7 @@
 		</tr>
 		<tr>
 			<td class="titlebox">
-				<span class="title02">I'm Rlagus, a developer who wants a development job. Please call me back</span>
+				<span class="title02">I'm Rlagus, a developer who wants a development job. Please call me back.</span>
 			</td>
 		</tr>
 		<tr>
@@ -33,9 +44,9 @@
 								<table border="0" cellspacing="0" cellpadding="10">									
 									<tr>
 										<td class="main_text">
-											안녕하세요 Web Application 백엔드 개발자 Rlagus입니다.<br>
-											보시고 계신 페이지는 Spring Boot Framework으로 개발되었습니다.<br>
-											웹 어플리케이션 개발 관련하여 궁금하신 점은 question 질문 게시판을 이용해주세요.
+											${memberName}님 회원가입을 축하드립니다!<br>
+											가입하신 아이디는 ${memberId}입니다.<br><br>
+											<input class="content_btn01" type="button" value="로그인 바로가기" onclick="script:window.location.href='login'">
 										</td>										
 									</tr>									
 								</table>

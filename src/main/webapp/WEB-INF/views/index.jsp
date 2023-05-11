@@ -10,7 +10,7 @@
 <body>
 	<%@ include file="include/header.jsp"%>
 	<center>
-	<table border="0" cellspacing="0" cellpadding="20" width="75%">
+	<table border="0" cellspacing="0" cellpadding="10" width="80%">
 		<tr>
 			<td class="titlebox">
 				<span class="title01">DEVELOPER RLAGUS'S PROFILE</span>
@@ -24,10 +24,10 @@
 		<tr>
 			<td>
 				<center>
-				<table border="0" cellspacing="0" cellpadding="10" width="80%">
+				<table border="0" cellspacing="0" cellpadding="20" width="75%">
 					<tr>
 						<td class="skillbox"><span class="skilltext01">J</span><span class="skilltext02">AVA</span></td>
-						<td rowspan="6" class="imgbox"><img src="/resources/img/testfile.jpg" width="700"></td>
+						<td rowspan="6" class="imgbox"><img src="/resources/img/testfile.jpg" width="770"></td>
 					</tr>
 					<tr>
 						<td class="skillbox"><span class="skilltext01">J</span><span class="skilltext02">SP</span></td>
