@@ -30,12 +30,18 @@
 		INSERT INTO web_board (bnum, bid, bname, bcontent, bemail) VALUES (webboard_seq.nextval, #{param1}, #{param2}, #{param3}, #{param4})
 	</insert>
 	
+<!--
 	<select id="questionListDao" resultType="com.rlagus.homekh.dto.BoardDto">
 		SELECT * FROM 
 			(SELECT A.*, FLOOR((ROWNUM-1)/5+1)PAGE, ROWNUM
 				FROM 
 					(SELECT * FROM  web_board ORDER BY bnum DESC)A)
 						WHERE page=${pageNum}
+	</select>
+ -->
+	
+	<select id="questionListDao" resultType="com.rlagus.homekh.dto.BoardDto">
+		SELECT * FROM web_board ORDER BY bnum DESC
 	</select>
 	
 	<select id="cententViewDao" resultType="com.rlagus.homekh.dto.BoardDto">
