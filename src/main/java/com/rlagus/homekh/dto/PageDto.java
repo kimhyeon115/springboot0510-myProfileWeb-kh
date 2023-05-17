@@ -21,11 +21,14 @@ public class PageDto {
 		
 		this.criteria = criteria;
 		this.total = total;
-		this.endPage = (int) (Math.ceil((criteria.getPageNum()/5.0)) * 5);		// Math.ceil() 소수점 이하 무조건 반올림(+1?) 공식
+		this.endPage = (int) (Math.ceil(criteria.getPageNum()/5.0) * 5);		// Math.ceil() 소수점 이하 무조건 반올림(+1?) 공식
 		// 53개의 글이 존재(예시)													// 게시판 end 페이지 구하는 공식
 		//       1  2  3  4  5  next
 		// prev  6  7  8  9  10 next
 		// prev  11
+		
+//		this.endPage = (int)(Math.ceil(criteria.getPageNum()/criteria.getAmount()*1.0)*criteria.getAmount()); // 오류?(논리적으론 맞음)
+		
 		
 		this.startPage = this.endPage - 4;
 		

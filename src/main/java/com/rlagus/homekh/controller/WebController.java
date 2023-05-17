@@ -13,7 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.rlagus.homekh.dao.IDao;
 import com.rlagus.homekh.dto.BoardDto;
+import com.rlagus.homekh.dto.Criteria;
 import com.rlagus.homekh.dto.MemberDto;
+import com.rlagus.homekh.dto.PageDto;
 
 import oracle.net.aso.m;
 
@@ -168,12 +170,29 @@ public class WebController {
 	}
 	
 	@RequestMapping(value = "/list")
-	public String list(Model model) {
+	public String list(Model model, Criteria criteria, HttpServletRequest request) {
+		int pageNum = 0;
+		
+		if(request.getParameter("pageNum") == null) {
+			pageNum = 1;
+			//criteria.setPageNum(pageNum); 
+		} else {
+			pageNum = Integer.parseInt(request.getParameter("pageNum"));
+			criteria.setPageNum(pageNum);
+		}
 		
 		IDao dao = sqlSession.getMapper(IDao.class);
-		List<BoardDto> boardDtos = dao.questionListDao();
-		model.addAttribute("boardDtos", boardDtos);
 		
+		int total = dao.boardAllCountDao();					// 모든 글의 개수
+		
+		PageDto pageDto = new PageDto(criteria, total);
+		
+		List<BoardDto> boardDtos = dao.questionListDao(criteria.getAmount(), pageNum);
+		
+		model.addAttribute("pageMaker", pageDto);
+		model.addAttribute("boardDtos", boardDtos);
+		model.addAttribute("currPage", pageNum);
+				
 		return "list";
 	}
 	
